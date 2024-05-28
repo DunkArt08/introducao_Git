@@ -1,3 +1,5 @@
+git status verifica quais são os arquivos que foram adicionados ao projeto, quem está atualizando.
+
 git init -> criar repositório local
 
 git remote add origin "link do github"
@@ -11,3 +13,7 @@ git push origin main
 *agora estamos na branch nova
 
 git checkout -b dev
+
+*para fazer o merge, precisa estar na branch que vc quer adicionar o conteúdo novo(maioria das vezes no main) chamar o merge com o nome
+da branch criada
+git merge dev
